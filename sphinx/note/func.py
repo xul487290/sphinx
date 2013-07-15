@@ -1,13 +1,13 @@
-#-*- coding:utf-*-
+#-*- coding:utf-8 -*-
 
-import string 
-import random 
+import string
+import random
 def generateStr():
-    """ 
+    """
         Func: generateStr
         Usage:
-            s1 = generateStr 
-            Generate the random string  
+            s1 = generateStr
+            Generate the random string
     """
     seed_str    = string.lowercase
     seed_digits = string.digits
